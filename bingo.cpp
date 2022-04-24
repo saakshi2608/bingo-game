@@ -64,13 +64,13 @@ int main()
     bool won=false;
     for(int i=0;i<5;i++){
         if(new_row1[i]==new_row2[i] && new_row1[i]==new_row3[i] && new_row2[i]==new_row3[i]){
-            printf("Congrats,you won!!");
+            printf("Congrats,you won!!\n");
             won=true;
             break;
         }
     }
     if(won==false){
-            printf("Sorry,you lost!");
+            printf("Sorry,you lost!\n");
         }
     return 0;
 }
